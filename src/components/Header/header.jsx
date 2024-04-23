@@ -19,7 +19,6 @@ export default function header() {
         <Link to='/'>Home</Link> 
         <Link to='/sobre'>Sobre</Link> 
         <Link to='/projetos' className='linkProjetos'>Projetos</Link> 
-        <Link to='/contato'>Contato</Link>
       </S.Menu>
      </S.Header>
     </>

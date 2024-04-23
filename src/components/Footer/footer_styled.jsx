@@ -12,6 +12,6 @@ export const ContainerFooter = styled.footer`
  height: 10.1vh;  
 
  a {
-    color: #10439F;
+    color: #A34343;
  }
 `;

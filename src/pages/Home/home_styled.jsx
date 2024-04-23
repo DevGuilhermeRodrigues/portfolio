@@ -21,7 +21,7 @@ export const ContainerHome = styled.section`
  }
 
  span {
-    color:#10439F
+    color:#A34343;
  }
 `;
 
@@ -33,7 +33,8 @@ export const ContainerRedesSociais = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #10439F;
+    /* background-color: #10439F; */
+    background-color: #A34343; 
     color: white;
     width: 9rem;
     padding: 1em;
@@ -43,7 +44,7 @@ export const ContainerRedesSociais = styled.div`
  }
 
  a:hover {
-   background-color: #2d58a9;
+   /* background-color: ; */
  }
 
  svg {

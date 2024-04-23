@@ -7,6 +7,7 @@ export const Header = styled.header`
  padding: 1em 0;
  color: white;
  background-color: #2C3333;
+ border-bottom: 1px solid #ccc;
 `;
 
 export const ContainerLogo = styled.div`
