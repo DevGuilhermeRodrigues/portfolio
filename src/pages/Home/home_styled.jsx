@@ -1,0 +1,52 @@
+import styled from "styled-components";
+
+export const ContainerHome = styled.section`
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 15px;
+ padding: 1em 0;
+ border-top: 1px solid white;
+ height: 75vh;
+ color: #ccc;
+ background-color: #2C3333;
+
+ h1 {
+    font-size: 75px;
+ }
+
+ h2 {
+    font-size: 35px;
+ }
+
+ span {
+    color:#10439F
+ }
+`;
+
+export const ContainerRedesSociais = styled.div`
+ display: flex;
+ gap: 5px;
+
+ a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #10439F;
+    color: white;
+    width: 9rem;
+    padding: 1em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    border-radius: 6px;
+ }
+
+ a:hover {
+   background-color: #2d58a9;
+ }
+
+ svg {
+   font-size: 30px;
+ }
+`;
