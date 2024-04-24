@@ -7,5 +7,6 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
+    background-color: #2C3333;
   }
 `;

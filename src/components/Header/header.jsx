@@ -10,15 +10,15 @@ export default function header() {
       <S.ContainerLogo>
         <img src={IconComputador} alt='Icone Computador' />
         <div>
-          <p>Guilherme</p>
-          <p>Dev</p>
+          <p className='logo-name'>Guilherme</p>
+          <p className='logo-name'>Dev</p>
         </div>
       </S.ContainerLogo>
 
       <S.Menu>
-        <Link to='/'>Home</Link> 
-        <Link to='/sobre'>Sobre</Link> 
-        <Link to='/projetos' className='linkProjetos'>Projetos</Link> 
+        <Link to='/' className='link-menu'>Home</Link> 
+        <Link to='/sobre' className='link-menu'>Sobre</Link> 
+        <Link to='/projetos' className='link-menu'>Projetos</Link> 
       </S.Menu>
      </S.Header>
     </>

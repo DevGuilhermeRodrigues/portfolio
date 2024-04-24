@@ -33,7 +33,6 @@ export const ContainerRedesSociais = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* background-color: #10439F; */
     background-color: #A34343; 
     color: white;
     width: 9rem;
@@ -43,11 +42,8 @@ export const ContainerRedesSociais = styled.div`
     border-radius: 6px;
  }
 
- a:hover {
-   /* background-color: ; */
- }
-
  svg {
    font-size: 30px;
+   background-color: transparent;
  }
 `;

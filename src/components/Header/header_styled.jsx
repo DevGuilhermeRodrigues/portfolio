@@ -19,6 +19,12 @@ export const ContainerLogo = styled.div`
     width: 60px;
     height: 60px;
  }
+
+ .logo-name {
+   font-size: 18px;
+   font-weight: 300;
+ }
+
 `;
 
 export const Menu = styled.nav`
@@ -28,13 +34,27 @@ export const Menu = styled.nav`
  padding: 1em 0;
  width: 20rem; 
 
- a {
+a {
     color: white;
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 17px;
+    letter-spacing: 1px;
  }
 
- .linkProjetos {
-    padding: .6em;
-    border-radius: 10px;
- }
+ a::after {
+    content: " ";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background-color: #A34343;
+    bottom: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+}
+
+ a:hover::after {
+    width: 100%;
+}
 `;
 
