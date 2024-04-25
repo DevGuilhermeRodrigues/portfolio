@@ -8,8 +8,12 @@ export const ContainerFooter = styled.footer`
  font-size: 20px;
  border-top: 1px solid white;
  color: #ccc;
- background-color: #2C3333;
- height: 10.1vh;  
+ background-color: #2C3333;  
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ padding: 1em 0;
 
  a {
     color: #A34343;

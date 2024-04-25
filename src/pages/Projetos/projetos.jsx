@@ -48,10 +48,13 @@ export default function projetos() {
             projetos.map((func, id) => (
               <S.ContainerProjeto>
                 <img src={func.imagem} alt='projeto mec' />
-                <h2>{func.nome}</h2>
+
                 <div>
+                <h2>{func.nome}</h2>
+                <div className='containerLinks'>
                   <a href={func.projeto} target='blank'>Projeto</a>
                   <a href={func.repositorio} target='blank'>Repositório</a>
+                </div>
                 </div>
               </S.ContainerProjeto>
             ))

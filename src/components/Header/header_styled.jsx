@@ -25,6 +25,12 @@ export const ContainerLogo = styled.div`
    font-weight: 300;
  }
 
+ div {
+   border-left: 2px solid #A34343;
+   margin-left: 3px;
+   padding-left: 5px;
+ }
+
 `;
 
 export const Menu = styled.nav`

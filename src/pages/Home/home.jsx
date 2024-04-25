@@ -10,23 +10,23 @@ export default function home() {
   return (
     <>
      <Header />
-     <main>
+     <S.ContainerMain>
        <S.ContainerHome>
          <h1>Guilherme Rodrigues</h1>
          <h2>Desenvolvedor <span>Front-end</span></h2>
 
          <S.ContainerRedesSociais>
-           <a href='#'>
+           <a href='#' target='blank'>
             GitHub
             <AiFillGithub />
            </a>
-           <a href='#'>
+           <a href='#' target='blank'>
             Linkedin
             <FaLinkedin />
             </a>
          </S.ContainerRedesSociais>
        </S.ContainerHome>
-     </main>
+     </S.ContainerMain>
      <Footer />
     </>
   )

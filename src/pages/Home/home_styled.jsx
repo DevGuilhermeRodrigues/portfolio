@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const ContainerMain = styled.main`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
+`;
+
 export const ContainerHome = styled.section`
  display: flex;
  flex-direction: column;
@@ -7,8 +15,6 @@ export const ContainerHome = styled.section`
  align-items: center;
  gap: 15px;
  padding: 1em 0;
- border-top: 1px solid white;
- height: 75vh;
  color: #ccc;
  background-color: #2C3333;
 
@@ -34,12 +40,32 @@ export const ContainerRedesSociais = styled.div`
     align-items: center;
     justify-content: space-evenly;
     background-color: #A34343; 
+    border: 1px solid white;
     color: white;
     width: 9rem;
     padding: 1em;
     letter-spacing: 2px;
     font-weight: 400;
     border-radius: 6px;
+    position: relative;
+ }
+
+ a::after {
+   content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    background-color: #c57373;
+    transition: width .8s ease-in-out;
+    opacity: 0;
+    border-radius: 6px;
+ }
+
+ a:hover::after {
+   width: 100%;
+   opacity: .3;
  }
 
  svg {

@@ -8,5 +8,6 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     background-color: #2C3333;
+    height: auto;
   }
 `;

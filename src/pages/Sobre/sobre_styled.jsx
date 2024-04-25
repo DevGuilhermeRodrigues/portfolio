@@ -7,7 +7,7 @@ export const ContainerSection = styled.section`
  justify-content: center;
  align-items: center;
  gap: 20px;
- height: 75vh;
+ /* height: 75vh; */
  background-color: #2C3333;
  color: #ccc;
 `;
@@ -33,6 +33,19 @@ export const ContainerDescriptionMe = styled.div`
  p {
     font-size: 18px;
  }
+
+ /* Responsividade dos paragráfos e titulo */
+ @media (max-width: 1180px) {
+   width: 35rem;
+
+   p {
+      font-size: 18px;
+   }
+
+   h1 {
+      font-size: 32px;
+   }
+ }
 `;
 
 export const ContainerImg = styled.div`
@@ -40,6 +53,14 @@ export const ContainerImg = styled.div`
     width: 22rem;
     height: 22rem;
     border-radius: 50%;
+ }
+
+ /* Responsividade da imagem */
+ @media (max-width: 1180px) {
+   img {
+      width: 18rem;
+      height: 18rem;
+   }
  }
 `;
 
@@ -64,5 +85,12 @@ export const ContainerSkill = styled.div`
 
  svg {
     font-size: 35px;
+ }
+ 
+ /* Responsividade do h2 e icons */
+ @media (max-width: 1180px) {
+   h2, svg {
+      font-size: 32px;
+   }
  }
 `;
